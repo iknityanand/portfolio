@@ -4,7 +4,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-	<App txt="My text prop value" />, 
+	<App cat={50} />, 
 	document.getElementById('root')
 	);
 registerServiceWorker();
