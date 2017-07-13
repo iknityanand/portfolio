@@ -13,8 +13,15 @@ class App extends React.Component{
 }
 
 App.propTypes ={
-  txt: PropTypes.string,
-  cat: PropTypes.number.isRequired
+  cat: PropTypes.number.isRequired,
+  txt(props, propName, component){
+    if(!(propName in props)){
+      return new Error('missing '+propName)
+    }
+    if(props[propName].length < 6){
+      return new Error('too short');
+    }
+  }
 }
 
 App.defaultProps={

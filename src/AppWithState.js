@@ -20,5 +20,5 @@ class AppWithState extends React.Component{
   }
 }
 
-const Widget = (props) => <input type="text" onChange={props.update} />
+const Widget = (props) => <input type="text" placeholder="Write to us" onChange={props.update} />
 export default AppWithState
