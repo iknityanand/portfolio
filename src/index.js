@@ -5,6 +5,7 @@ import AppWithState from './AppWithState';
 import AppWithNestedData from './AppWithNestedData';
 import ReactSyntheticEventSystem from './ReactSyntheticEventSystem';
 import ReferenceSpecificComponents from './ReferenceSpecificComponents';
+import ComponentLifeCycle from './ComponentLifeCycle';
 import registerServiceWorker from './registerServiceWorker';
 
 let allComponents= (
@@ -14,6 +15,7 @@ let allComponents= (
 		<AppWithNestedData />
 		<ReactSyntheticEventSystem />
 		<ReferenceSpecificComponents />
+		<ComponentLifeCycle />
 	</div>
 );
 
