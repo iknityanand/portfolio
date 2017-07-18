@@ -7,6 +7,7 @@ import ReactSyntheticEventSystem from './ReactSyntheticEventSystem';
 import ReferenceSpecificComponents from './ReferenceSpecificComponents';
 import ComponentLifeCycle from './ComponentLifeCycle';
 import registerServiceWorker from './registerServiceWorker';
+import ControlingComponent from './ControlingComponent';
 
 let allComponents= (
 	<div>
@@ -16,6 +17,7 @@ let allComponents= (
 		<ReactSyntheticEventSystem />
 		<ReferenceSpecificComponents />
 		<ComponentLifeCycle />
+		<ControlingComponent />
 	</div>
 );
 
