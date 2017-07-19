@@ -6,8 +6,9 @@ import AppWithNestedData from './AppWithNestedData';
 import ReactSyntheticEventSystem from './ReactSyntheticEventSystem';
 import ReferenceSpecificComponents from './ReferenceSpecificComponents';
 import ComponentLifeCycle from './ComponentLifeCycle';
-import registerServiceWorker from './registerServiceWorker';
 import ControlingComponent from './ControlingComponent';
+import ComponentUsingMap from './ComponentUsingMap';
+import registerServiceWorker from './registerServiceWorker';
 
 let allComponents= (
 	<div>
@@ -18,6 +19,7 @@ let allComponents= (
 		<ReferenceSpecificComponents />
 		<ComponentLifeCycle />
 		<ControlingComponent />
+		<ComponentUsingMap />
 	</div>
 );
 
