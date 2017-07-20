@@ -8,6 +8,7 @@ import ReferenceSpecificComponents from './ReferenceSpecificComponents';
 import ComponentLifeCycle from './ComponentLifeCycle';
 import ControlingComponent from './ControlingComponent';
 import ComponentUsingMap from './ComponentUsingMap';
+import HigherOrderComponents from './HigherOrderComponents';
 import registerServiceWorker from './registerServiceWorker';
 
 let allComponents= (
@@ -20,6 +21,7 @@ let allComponents= (
 		<ComponentLifeCycle />
 		<ControlingComponent />
 		<ComponentUsingMap />
+		<HigherOrderComponents />
 	</div>
 );
 
